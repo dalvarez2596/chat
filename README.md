@@ -17,7 +17,7 @@ Make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone git@github.com:dalvarez2596/hotwire-chat.git
    cd chat
    ```
 2. Install the required gems:
