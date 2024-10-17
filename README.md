@@ -1,24 +1,55 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README documents the steps necessary to get the Chat application up and running. This application is built with Ruby on Rails and utilizes Hotwire for a dynamic user experience.
 
-Things you may want to cover:
+## Ruby Version
 
-* Ruby version
+This application is built using Ruby version **3.2.2**.
 
-* System dependencies
+## System Dependencies
 
-* Configuration
+Make sure you have the following installed:
 
-* Database creation
+- Ruby 3.2.2
+- Rails 7.2.1
 
-* Database initialization
+## Configuration
 
-* How to run the test suite
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd chat
+   ```
+2. Install the required gems:
 
-* Services (job queues, cache servers, search engines, etc.)
+   ```bash
+    bundle install
+    ```
+3. Database Creation
 
-* Deployment instructions
+    To create the database, run:
 
-* ...
+    ```bash
+
+    rails db:create
+    ```
+4. Database Initialization
+
+    To set up the database with the necessary tables and seed data, run:
+
+    ```bash
+
+    rails db:migrate
+    ```
+
+5. Run the application :
+
+    ```bash
+    rails s
+    ```  
+
+And go to http://localhost:3000/rooms to start creating rooms and chats :)
+
+## Additional Notes  
+
+For more information on using Hotwire, refer to the official guide: [Hotwired.dev.](https://hotwired.dev/)
